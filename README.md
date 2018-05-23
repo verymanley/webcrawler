@@ -1,2 +1,2 @@
-# -webcrawler
-webcrawler v0.01 Designed and Developed by Joshua Manley and Dan Saul
+# webcrawler v0.01
+webcrawler v0.01 Built by Joshua Manley and Dan Saul
