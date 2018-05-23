@@ -5,6 +5,8 @@
 # speed_of_light in meters per second
 # cycles_per_second is 2.7 GHz
 
+#learning...
+
 SOL = 299792458.0
 CPS = 2700000000.0
 
