@@ -1,14 +1,12 @@
-#webcrawler v01.01
+#webcrawler v0.01
 
-# Given the variables defined here, write Python
-# code that prints out the distance, in meters,
-# that light travels in one processor cycle.
+# page = contents of a web page
+page =('<div id="top_bin"><div id="top_content" class="width960">'
+'<div class="udacity float-left"><a href="http://udacity.com">')
 
-# speed_of_light in meters per second
-# cycles_per_second is 2.7 GHz
+start_link = page.find('<a href=')
+start_quote = page.find('"',start_link)
+end_quote = page.find('"',start_quote+1)
+url = page[start_quote+1:end_quote]
 
-
-SOL = 299792458.0
-CPS = 2700000000.0
-
-print SOL * CPS
+print url
