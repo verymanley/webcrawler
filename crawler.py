@@ -1,7 +1,7 @@
 #webcrawler v0.01
 
 # page = contents of a web page
-page = ('<div class="udacity float-left"><a href="http://udacity.com">')
+page = ('<div class="udacity float-left"><a href="http://udacity01.com"><div class="udacity float-left"><a href="http://udacity02.com">')
 start_link = page.find('<a href=')
 start_quote = page.find('"',start_link)
 end_quote = page.find('"',start_quote+1)
