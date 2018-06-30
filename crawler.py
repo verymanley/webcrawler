@@ -1,4 +1,4 @@
-#webcrawler v0.01
+#webcrawler v0.02
 
 # page = contents of a web page
 page = ('<div class="udacity float-left"><a href="http://udacity01.com"><div class="udacity float-left"><a href="http://udacity02.com">')
